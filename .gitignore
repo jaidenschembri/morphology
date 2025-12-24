@@ -1,0 +1,52 @@
+### Runtime & environments
+.venv/
+venv/
+env/
+.env
+.python-version
+
+### Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+
+### Packaging / build outputs
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+### Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+.coverage.*
+.nox/
+.hypothesis/
+
+### OS & editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+### Project outputs & data caches
+output/
+cache/
+data/processed/
+data/raw/
+*.log
+*.tmp
+models/
+checkpoints/
+
+### Project-specific notes
+blog_post.md
+.claude
+CLAUDE.md
+plan.md
+refactor.md
+wine_quality_2.html
